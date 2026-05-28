@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+pytesseract
+opencv-python-headless
+numpy
+scikit-learn
+python-multipart
+sqlalchemy
+passlib[bcrypt]
+pyjwt
+python-dotenv
+reportlab
+email-validator
