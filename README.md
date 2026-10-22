@@ -1,16 +1,50 @@
-# React + Vite
+# SmartSpend AI 💸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SmartSpend AI is an intelligent expense-tracking project designed to help users understand their spending and manage everyday expenses more effectively.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Receipt scanning:** Extract text and item details from grocery receipts using OCR.
+- **Expense categorization:** Organize spending into categories for easier tracking.
+- **Spending insights:** Visualize expense data through charts and summaries.
+- **Simple interface:** A modern, dark-themed fintech interface with a rupee-based display.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, Vite, Recharts
+- **Backend:** FastAPI
+- **Database:** SQLite
+- **Image and text processing:** OpenCV, Tesseract OCR
+- **Text processing:** spaCy
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+1. Install [Node.js](https://nodejs.org/) if it isn't already installed.
+2. Open a terminal in the project directory.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Follow the terminal output to open the application in your browser.
+
+### Backend
+
+The backend uses FastAPI and the dependencies listed in `requirements.txt`. Configure any required environment variables locally before running it.
+
+## 📌 Project Goal
+
+Make everyday expense tracking easier by turning receipt data into organized spending information and useful visual insights.
+
+---
+
+Built as a personal project exploring AI-assisted expense tracking and financial data visualization.
